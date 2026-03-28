@@ -57,3 +57,9 @@ libasm/
 - **Inline ASM**: not allowed — only `.s` files
 - **Flag**: `-no-pie` is forbidden
 - **Calling convention**: System V AMD64 ABI
+
+---
+
+## References
+
+- https://refspecs.linuxbase.org/elf/x86_64-abi-0.99.pdf
