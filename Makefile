@@ -6,7 +6,8 @@ NASMFLAGS := -f elf64
 SRC_DIR := src
 
 SRCS := \
-	$(SRC_DIR)/ft_strlen.s
+	$(SRC_DIR)/ft_strlen.s \
+	$(SRC_DIR)/ft_strcpy.s
 
 OBJS := $(SRCS:.s=.o)
 
