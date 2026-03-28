@@ -12,14 +12,14 @@ with NASM into a static library. Syscall errors must be properly handled and
 
 ## Functions
 
-| Function | Reimplements | Notes |
-|---|---|---|
-| `ft_strlen` | `strlen(3)` | |
-| `ft_strcpy` | `strcpy(3)` | |
-| `ft_strcmp` | `strcmp(3)` | |
-| `ft_write` | `write(2)` | syscall — errno handling required |
-| `ft_read` | `read(2)` | syscall — errno handling required |
-| `ft_strdup` | `strdup(3)` | may call `malloc` |
+| Function | Reimplements | 
+|---|---|
+| `ft_strlen` | `strlen(3)` | 
+| `ft_strcpy` | `strcpy(3)` | 
+| `ft_strcmp` | `strcmp(3)` | 
+| `ft_write`  | `write(2)`  | 
+| `ft_read`   | `read(2)`   | 
+| `ft_strdup` | `strdup(3)` | 
 
 ---
 
@@ -28,10 +28,6 @@ with NASM into a static library. Syscall errors must be properly handled and
 ```bash
 # Compile the library
 make
-
-# Compile and run the tests
-make && gcc -o tests/test_ft_strlen tests/test_ft_strlen.c -L. -lasm
-./tests/test_ft_strlen
 
 # Clean
 make clean   # objects only
@@ -47,10 +43,8 @@ libasm/
 ├── Makefile
 ├── include/
 │   └── libasm.h
-├── src/
-│   └── ft_strlen.s
-└── tests/
-    └── test_ft_strlen.c
+└── src/
+    └── ft_strlen.s
 ```
 
 ---
