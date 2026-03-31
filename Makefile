@@ -7,7 +7,8 @@ SRC_DIR := src
 
 SRCS := \
 	$(SRC_DIR)/ft_strlen.s \
-	$(SRC_DIR)/ft_strcpy.s
+	$(SRC_DIR)/ft_strcpy.s \
+	$(SRC_DIR)/ft_strcmp.s
 
 OBJS := $(SRCS:.s=.o)
 
