@@ -64,3 +64,4 @@ libasm/
 
 - https://refspecs.linuxbase.org/elf/x86_64-abi-0.99.pdf
 - https://www.felixcloutier.com/x86/
+- https://chromium.googlesource.com/chromiumos/docs/+/master/constants/syscalls.md
