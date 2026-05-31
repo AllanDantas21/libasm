@@ -9,7 +9,8 @@ SRCS := \
 	$(SRC_DIR)/ft_strlen.s \
 	$(SRC_DIR)/ft_strcpy.s \
 	$(SRC_DIR)/ft_strcmp.s \
-	$(SRC_DIR)/ft_write.s
+	$(SRC_DIR)/ft_write.s \
+	$(SRC_DIR)/ft_read.s \
 
 OBJS := $(SRCS:.s=.o)
 
