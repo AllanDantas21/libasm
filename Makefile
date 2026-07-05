@@ -11,6 +11,7 @@ SRCS := \
 	$(SRC_DIR)/ft_strcmp.s \
 	$(SRC_DIR)/ft_write.s \
 	$(SRC_DIR)/ft_read.s \
+	$(SRC_DIR)/ft_strdup.s
 
 OBJS := $(SRCS:.s=.o)
 
